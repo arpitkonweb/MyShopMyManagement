@@ -37,3 +37,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:arpitkonweb/MyShopMyManagement.git
 git push -u origin main
+if   is like : error: failed to push some refs to 'github.com:arpitkonweb/MyShopMyManagement.git' then run below command.
+git pull --rebase origin main  
+git push origin main --force 
